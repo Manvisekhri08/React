@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 65,
+            "activePatchIndex": 74,
             "patches": [
                 {
                     "date": 1692263536430,
@@ -268,6 +268,42 @@
                 {
                     "date": 1692276560118,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,5 +38,6 @@\n     }\n }\n \n const user1 = new Users(\"Lana\", 37)\n-console.log(user1)\n\\ No newline at end of file\n+console.log(user1)\n+user1.greet();\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1692276636882,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,31 +13,31 @@\n \n // console.log(content);\n \n // Objects and classes\n-const user = {\n-    name: \"Hi, Its me\",\n-    age: 33,\n-    greet() {\n-        console.log(\"I'm the problem !\");\n-        console.log(this.age);\n-    }\n-};\n-console.log(user);\n-console.log(user.name);\n-console.log(user.age);\n-user.greet();\n+// const user = {\n+//     name: \"Hi, Its me\",\n+//     age: 33,\n+//     greet() {\n+//         console.log(\"I'm the problem !\");\n+//         console.log(this.age);\n+//     }\n+// };\n+// console.log(user);\n+// console.log(user.name);\n+// console.log(user.age);\n+// user.greet();\n \n \n-class Users {\n\\ No newline at end of file\n-    constructor(name, age) {\n-        this.name = name;\n-        this.age = age;\n-    }\n-    greet() {\n-        console.log(\"I'm the problem !\");\n-    }\n-}\n+// class Users {\n+//     constructor(name, age) {\n+//         this.name = name;\n+//         this.age = age;\n+//     }\n+//     greet() {\n+//         console.log(\"I'm the problem !\");\n+//     }\n+// }\n \n-const user1 = new Users(\"Lana\", 37)\n-console.log(user1)\n-user1.greet();\n+// const user1 = new Users(\"Lana\", 37)\n+// console.log(user1)\n+// user1.greet();\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1692276642626,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,14 +1,14 @@\n //import { apiKey, abc } from \"./util.js\";\n // for import and export keywords type = module necessary in script tag\n //import apiKey from \"./util.js\"; //default\n \n-import * as util from \"./util.js\";   // grouping multiple keys in one object\n+// import * as util from \"./util.js\";   // grouping multiple keys in one object\n \n-console.log(util); // returns js object \n-console.log(util.abc)\n-console.log(util.apiKey);\n-console.log(util.default);\n+// console.log(util); // returns js object \n+// console.log(util.abc)\n+// console.log(util.apiKey);\n+// console.log(util.default);\n \n // import { apiKey, abc as content } from \"./util.js\";  // if i don't like the name abc i can change it here\n \n // console.log(content);\n"
+                },
+                {
+                    "date": 1692276650608,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,5 +39,6 @@\n // }\n \n // const user1 = new Users(\"Lana\", 37)\n // console.log(user1)\n-// user1.greet();\n\\ No newline at end of file\n+// user1.greet();\n+\n"
+                },
+                {
+                    "date": 1692276681403,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,4 +41,5 @@\n // const user1 = new Users(\"Lana\", 37)\n // console.log(user1)\n // user1.greet();\n \n+const hobbies = []\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1692276687112,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,5 +41,5 @@\n // const user1 = new Users(\"Lana\", 37)\n // console.log(user1)\n // user1.greet();\n \n-const hobbies = []\n\\ No newline at end of file\n+const hobbies = [\"gym\", \"\"]\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1692276693739,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,5 +41,5 @@\n // const user1 = new Users(\"Lana\", 37)\n // console.log(user1)\n // user1.greet();\n \n-const hobbies = [\"gym\", \"\"]\n\\ No newline at end of file\n+const hobbies = [\"gym\", \"running\", \"rw\"]\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1692276701024,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,5 +41,5 @@\n // const user1 = new Users(\"Lana\", 37)\n // console.log(user1)\n // user1.greet();\n \n-const hobbies = [\"gym\", \"running\", \"rw\"]\n\\ No newline at end of file\n+const hobbies = [\"gym\", \"running\", \"reading\", \"cooking\"]\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1692276716739,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,4 +42,5 @@\n // console.log(user1)\n // user1.greet();\n \n const hobbies = [\"gym\", \"running\", \"reading\", \"cooking\"];\n+console.log(ho')\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1692277515038,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,51 @@\n+//import { apiKey, abc } from \"./util.js\";\n+// for import and export keywords type = module necessary in script tag\n+//import apiKey from \"./util.js\"; //default\n+\n+// import * as util from \"./util.js\";   // grouping multiple keys in one object\n+\n+// console.log(util); // returns js object \n+// console.log(util.abc)\n+// console.log(util.apiKey);\n+// console.log(util.default);\n+\n+// import { apiKey, abc as content } from \"./util.js\";  // if i don't like the name abc i can change it here\n+\n+// console.log(content);\n+\n+// Objects and classes\n+// const user = {\n+//     name: \"Hi, Its me\",\n+//     age: 33,\n+//     greet() {\n+//         console.log(\"I'm the problem !\");\n+//         console.log(this.age);\n+//     }\n+// };\n+// console.log(user);\n+// console.log(user.name);\n+// console.log(user.age);\n+// user.greet();\n+\n+\n+// class Users {\n+//     constructor(name, age) {\n+//         this.name = name;\n+//         this.age = age;\n+//     }\n+//     greet() {\n+//         console.log(\"I'm the problem !\");\n+//     }\n+// }\n+\n+// const user1 = new Users(\"Lana\", 37)\n+// console.log(user1)\n+// user1.greet();\n+\n+const hobbies = [\"gym\", \"running\", \"reading\", \"cooking\"];\n+console.log(hobbies[2]);\n+\n+hobbies.push(\"working\");\n+console.log(hobbies)\n+\n+hobbies.findIndex(item => item === \"Reading\")\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1692263536430,
