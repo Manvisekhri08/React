@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 11,
+            "activePatchIndex": 65,
             "patches": [
                 {
                     "date": 1692263536430,
@@ -52,6 +52,222 @@
                 {
                     "date": 1692264029458,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,7 +8,7 @@\n console.log(util.abc)\n console.log(util.apiKey);\n console.log(util.default);\n \n-// import { apiKey, abc as content } from \"./util.js\";\n+// import { apiKey, abc as content } from \"./util.js\";  // if i don't like the name abc i can change it here\n \n // console.log(content);\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1692271493593,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n+\n //import { apiKey, abc } from \"./util.js\";\n \n //import apiKey from \"./util.js\"; //default\n \n"
+                },
+                {
+                    "date": 1692271499855,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-\n+// for import and export \n //import { apiKey, abc } from \"./util.js\";\n \n //import apiKey from \"./util.js\"; //default\n \n"
+                },
+                {
+                    "date": 1692271511028,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-// for import and export \n+// for import and export keywords type = module necessary \n //import { apiKey, abc } from \"./util.js\";\n \n //import apiKey from \"./util.js\"; //default\n \n"
+                },
+                {
+                    "date": 1692271521755,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-// for import and export keywords type = module necessary \n+\n //import { apiKey, abc } from \"./util.js\";\n \n //import apiKey from \"./util.js\"; //default\n \n"
+                },
+                {
+                    "date": 1692271530216,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,6 @@\n-\n //import { apiKey, abc } from \"./util.js\";\n-\n+// for import and export keywords type = module necessary \n //import apiKey from \"./util.js\"; //default\n \n import * as util from \"./util.js\";   // grouping multiple keys in one object\n \n"
+                },
+                {
+                    "date": 1692271537035,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n //import { apiKey, abc } from \"./util.js\";\n-// for import and export keywords type = module necessary \n+// for import and export keywords type = module necessary in script tag\n //import apiKey from \"./util.js\"; //default\n \n import * as util from \"./util.js\";   // grouping multiple keys in one object\n \n"
+                },
+                {
+                    "date": 1692271542143,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,5 +10,6 @@\n console.log(util.default);\n \n // import { apiKey, abc as content } from \"./util.js\";  // if i don't like the name abc i can change it here\n \n-// console.log(content);\n\\ No newline at end of file\n+// console.log(content);\n+\n"
+                },
+                {
+                    "date": 1692271549493,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,5 +11,4 @@\n \n // import { apiKey, abc as content } from \"./util.js\";  // if i don't like the name abc i can change it here\n \n // console.log(content);\n-\n"
+                },
+                {
+                    "date": 1692271565746,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,7 +8,13 @@\n console.log(util.abc)\n console.log(util.apiKey);\n console.log(util.default);\n \n+\n+\n+\n+\n+\n+\n // import { apiKey, abc as content } from \"./util.js\";  // if i don't like the name abc i can change it here\n \n-// console.log(content);\n+// console.log(content);\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1692271575897,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,12 +9,12 @@\n console.log(util.apiKey);\n console.log(util.default);\n \n \n+// Variables and Values\n \n \n \n \n-\n // import { apiKey, abc as content } from \"./util.js\";  // if i don't like the name abc i can change it here\n \n // console.log(content);\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1692271615932,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,10 +11,4 @@\n \n \n // Variables and Values\n \n-\n-\n-\n-// import { apiKey, abc as content } from \"./util.js\";  // if i don't like the name abc i can change it here\n-\n-// console.log(content);\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1692271621347,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,6 +9,11 @@\n console.log(util.apiKey);\n console.log(util.default);\n \n \n+\n+// import { apiKey, abc as content } from \"./util.js\";  // if i don't like the name abc i can change it here\n+\n+// console.log(content);\n+\n+\n // Variables and Values\n-\n"
+                },
+                {
+                    "date": 1692272582450,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,12 +8,9 @@\n console.log(util.abc)\n console.log(util.apiKey);\n console.log(util.default);\n \n-\n-\n // import { apiKey, abc as content } from \"./util.js\";  // if i don't like the name abc i can change it here\n \n // console.log(content);\n \n \n-// Variables and Values\n"
+                },
+                {
+                    "date": 1692276109055,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,5 +12,8 @@\n // import { apiKey, abc as content } from \"./util.js\";  // if i don't like the name abc i can change it here\n \n // console.log(content);\n \n-\n+// Objects and classes\n+const user = [\n+    \n+]\n"
+                },
+                {
+                    "date": 1692276121683,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,7 +13,7 @@\n \n // console.log(content);\n \n // Objects and classes\n-const user = [\n+const user = {\n     \n-]\n+}\n"
+                },
+                {
+                    "date": 1692276128389,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,6 +14,6 @@\n // console.log(content);\n \n // Objects and classes\n const user = {\n-    \n+    name: \"Hi\"\n }\n"
+                },
+                {
+                    "date": 1692276134091,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,6 +14,6 @@\n // console.log(content);\n \n // Objects and classes\n const user = {\n-    name: \"Hi\"\n+    name: \"Hi, Its me\"\n }\n"
+                },
+                {
+                    "date": 1692276139490,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,5 +15,6 @@\n \n // Objects and classes\n const user = {\n     name: \"Hi, Its me\"\n+    age: 33;\n }\n"
+                },
+                {
+                    "date": 1692276147298,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,5 +16,6 @@\n // Objects and classes\n const user = {\n     name: \"Hi, Its me\"\n     age: 33;\n-}\n+    \n+};\n"
+                },
+                {
+                    "date": 1692276153638,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,6 +16,6 @@\n // Objects and classes\n const user = {\n     name: \"Hi, Its me\"\n     age: 33;\n-    \n+    WebGL2RenderingContext()\n };\n"
+                },
+                {
+                    "date": 1692276167955,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,6 +16,6 @@\n // Objects and classes\n const user = {\n     name: \"Hi, Its me\"\n     age: 33;\n-    WebGL2RenderingContext()\n+    greet\n };\n"
+                },
+                {
+                    "date": 1692276190038,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,6 +16,8 @@\n // Objects and classes\n const user = {\n     name: \"Hi, Its me\"\n     age: 33;\n-    greet\n+    greet() {\n+        console.l\n+    }\n };\n"
+                },
+                {
+                    "date": 1692276195700,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,7 +17,7 @@\n const user = {\n     name: \"Hi, Its me\"\n     age: 33;\n     greet() {\n-        console.l\n+        console.log(\"I'm \")\n     }\n };\n"
+                },
+                {
+                    "date": 1692276201455,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,7 +17,7 @@\n const user = {\n     name: \"Hi, Its me\"\n     age: 33;\n     greet() {\n-        console.log(\"I'm \")\n+        console.log(\"I'm ht eproblem !\")\n     }\n };\n"
+                },
+                {
+                    "date": 1692276208706,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,7 +17,7 @@\n const user = {\n     name: \"Hi, Its me\"\n     age: 33;\n     greet() {\n-        console.log(\"I'm ht eproblem !\")\n+        console.log(\"I'm the problem !\")\n     }\n };\n"
+                },
+                {
+                    "date": 1692276214879,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,4 +20,5 @@\n     greet() {\n         console.log(\"I'm the problem !\")\n     }\n };\n+console.\n"
+                },
+                {
+                    "date": 1692276220869,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,5 +20,5 @@\n     greet() {\n         console.log(\"I'm the problem !\")\n     }\n };\n-console.\n+console.log(user.)\n"
+                },
+                {
+                    "date": 1692276231597,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,11 +14,11 @@\n // console.log(content);\n \n // Objects and classes\n const user = {\n-    name: \"Hi, Its me\"\n+    name: \"Hi, Its me\",\n     age: 33;\n     greet() {\n         console.log(\"I'm the problem !\")\n     }\n };\n-console.log(user.)\n+console.log(user.name);\n"
+                },
+                {
+                    "date": 1692276237710,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,10 +15,11 @@\n \n // Objects and classes\n const user = {\n     name: \"Hi, Its me\",\n-    age: 33;\n+    age: 33,\n     greet() {\n         console.log(\"I'm the problem !\")\n     }\n };\n+\n console.log(user.name);\n"
+                },
+                {
+                    "date": 1692276257012,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,5 +21,6 @@\n         console.log(\"I'm the problem !\")\n     }\n };\n \n+console.l\n console.log(user.name);\n"
+                },
+                {
+                    "date": 1692276263279,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,6 +21,6 @@\n         console.log(\"I'm the problem !\")\n     }\n };\n \n-console.l\n+console.log(user);\n console.log(user.name);\n"
+                },
+                {
+                    "date": 1692276269431,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,4 +23,5 @@\n };\n \n console.log(user);\n console.log(user.name);\n+console.log()\n"
+                },
+                {
+                    "date": 1692276274502,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,5 +23,5 @@\n };\n \n console.log(user);\n console.log(user.name);\n-console.log()\n+console.log(user.default)\n"
+                },
+                {
+                    "date": 1692276280083,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,5 +23,5 @@\n };\n \n console.log(user);\n console.log(user.name);\n-console.log(user.default)\n+console.log(user.greet())\n"
+                },
+                {
+                    "date": 1692276297756,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,5 +23,5 @@\n };\n \n console.log(user);\n console.log(user.name);\n-console.log(user.greet())\n+console.log(user.greet);\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1692276322886,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,5 +23,6 @@\n };\n \n console.log(user);\n console.log(user.name);\n+console.log(user.age)\n console.log(user.greet);\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1692276344816,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,6 +23,6 @@\n };\n \n console.log(user);\n console.log(user.name);\n-console.log(user.age)\n-console.log(user.greet);\n\\ No newline at end of file\n+console.log(user.age);\n+user.greet();\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1692276353763,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,27 @@\n+//import { apiKey, abc } from \"./util.js\";\n+// for import and export keywords type = module necessary in script tag\n+//import apiKey from \"./util.js\"; //default\n+\n+import * as util from \"./util.js\";   // grouping multiple keys in one object\n+\n+console.log(util); // returns js object \n+console.log(util.abc)\n+console.log(util.apiKey);\n+console.log(util.default);\n+\n+// import { apiKey, abc as content } from \"./util.js\";  // if i don't like the name abc i can change it here\n+\n+// console.log(content);\n+\n+// Objects and classes\n+const user = {\n+    name: \"Hi, Its me\",\n+    age: 33,\n+    greet() {\n+        console.log(\"I'm the problem !\")\n+    }\n+};\n+console.log(user);\n+console.log(user.name);\n+console.log(user.age);\n+user.greet();\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1692276373088,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,39 +17,12 @@\n const user = {\n     name: \"Hi, Its me\",\n     age: 33,\n     greet() {\n-        console.log(\"I'm the problem !\")\n+        console.log(\"I'm the problem !\");\n+        this.console\n     }\n };\n console.log(user);\n console.log(user.name);\n console.log(user.age);\n-user.greet();\n-//import { apiKey, abc } from \"./util.js\";\n-// for import and export keywords type = module necessary in script tag\n-//import apiKey from \"./util.js\"; //default\n-\n-import * as util from \"./util.js\";   // grouping multiple keys in one object\n-\n-console.log(util); // returns js object \n-console.log(util.abc)\n-console.log(util.apiKey);\n-console.log(util.default);\n-\n-// import { apiKey, abc as content } from \"./util.js\";  // if i don't like the name abc i can change it here\n-\n-// console.log(content);\n-\n-// Objects and classes\n-const user = {\n-    name: \"Hi, Its me\",\n-    age: 33,\n-    greet() {\n-        console.log(\"I'm the problem !\")\n-    }\n-};\n-\n-console.log(user);\n-console.log(user.name);\n-console.log(user.age);\n user.greet();\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1692276379565,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n     name: \"Hi, Its me\",\n     age: 33,\n     greet() {\n         console.log(\"I'm the problem !\");\n-        this.console\n+        this.console.\n     }\n };\n console.log(user);\n console.log(user.name);\n"
+                },
+                {
+                    "date": 1692276386129,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n     name: \"Hi, Its me\",\n     age: 33,\n     greet() {\n         console.log(\"I'm the problem !\");\n-        this.console.\n+        console.log()\n     }\n };\n console.log(user);\n console.log(user.name);\n"
+                },
+                {
+                    "date": 1692276395328,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n     name: \"Hi, Its me\",\n     age: 33,\n     greet() {\n         console.log(\"I'm the problem !\");\n-        console.log()\n+        console.log(this.age);\n     }\n };\n console.log(user);\n console.log(user.name);\n"
+                },
+                {
+                    "date": 1692276405497,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,5 +24,8 @@\n };\n console.log(user);\n console.log(user.name);\n console.log(user.age);\n-user.greet();\n\\ No newline at end of file\n+user.greet();\n+\n+\n+class users\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1692276414652,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,5 +27,7 @@\n console.log(user.age);\n user.greet();\n \n \n-class users\n\\ No newline at end of file\n+class users {\n+    constructor()\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1692276420276,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,6 +28,6 @@\n user.greet();\n \n \n class users {\n-    constructor()\n+    constructor(name, age)\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1692276452765,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,7 +27,9 @@\n console.log(user.age);\n user.greet();\n \n \n-class users {\n-    constructor(name, age)\n+class Users {\n+    constructor(name, age) {\n+\n+    }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1692276462158,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,5 +31,6 @@\n class Users {\n     constructor(name, age) {\n \n     }\n+    \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1692276471344,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,6 +31,8 @@\n class Users {\n     constructor(name, age) {\n \n     }\n-    \n+    greet() {\n+        console.log(\"I'm the problem !\");\n+    }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1692276476899,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n \n \n class Users {\n     constructor(name, age) {\n-\n+        this\n     }\n     greet() {\n         console.log(\"I'm the problem !\");\n     }\n"
+                },
+                {
+                    "date": 1692276486297,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,10 @@\n \n \n class Users {\n     constructor(name, age) {\n-        this\n+        this.name = name;\n+        this.age = age;\n     }\n     greet() {\n         console.log(\"I'm the problem !\");\n     }\n"
+                },
+                {
+                    "date": 1692276504193,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,5 +35,7 @@\n     }\n     greet() {\n         console.log(\"I'm the problem !\");\n     }\n-}\n\\ No newline at end of file\n+}\n+\n+const user1 = new Users(\"\")\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1692276509350,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,5 +37,5 @@\n         console.log(\"I'm the problem !\");\n     }\n }\n \n-const user1 = new Users(\"\")\n\\ No newline at end of file\n+const user1 = new Users(\"Lana\", )\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1692276529019,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,5 +37,6 @@\n         console.log(\"I'm the problem !\");\n     }\n }\n \n-const user1 = new Users(\"Lana\", )\n\\ No newline at end of file\n+const user1 = new Users(\"Lana\", 37)\n+console.log(user1)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1692276560118,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,5 +38,6 @@\n     }\n }\n \n const user1 = new Users(\"Lana\", 37)\n-console.log(user1)\n\\ No newline at end of file\n+console.log(user1)\n+user1.greet();\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1692263536430,
