@@ -1,0 +1,26 @@
+{
+    "sourceFile": "javaScript-refresher/index.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1692263757307,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1692263768239,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n <!DOCTYPE html>\n <html>\n   <head>\n     <title>JavaScript Refresher</title>\n-    <link rel=\"stylesheet\" href=\"assets/style/main.css\" />\n+    <link rel=\"stylesheet\" href=\"assets/style/.css\" />\n     <meta charset=\"UTF-8\" />\n     <script src=\"assets/script/Main.js\" type=\"module\"></script>\n   </head>\n \n"
+                },
+                {
+                    "date": 1692263775020,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,11 @@\n <!DOCTYPE html>\n <html>\n   <head>\n     <title>JavaScript Refresher</title>\n-    <link rel=\"stylesheet\" href=\"assets/style/.css\" />\n+    <link rel=\"stylesheet\" href=\"assets/style/style.css\" />\n     <meta charset=\"UTF-8\" />\n-    <script src=\"assets/script/Main.js\" type=\"module\"></script>\n+    <script src=\"assets/scripts/Main.js\" type=\"module\"></script>\n   </head>\n \n   <body>\n     <header>\n"
+                }
+            ],
+            "date": 1692263757307,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>JavaScript Refresher</title>\n    <link rel=\"stylesheet\" href=\"assets/style/main.css\" />\n    <meta charset=\"UTF-8\" />\n    <script src=\"assets/script/Main.js\" type=\"module\"></script>\n  </head>\n\n  <body>\n    <header>\n      <img src=\"assets/images/js-logo-xs.png\" alt=\"JavaScript logo\" />\n      <h1>JavaScript Refresher</h1>\n    </header>\n\n    <ul>\n      <li>Base Syntax & Rules</li>\n      <li>Variables, Values & Operators</li>\n      <li>Functions</li>\n      <li>Objects</li>\n      <li>Arrays</li>\n      <li>Control Structures</li>\n      <li>Browser APIs & The DOM</li>\n      <li>Essential Features Used By React</li>\n      <li>Tricky Parts</li>\n    </ul>\n  </body>\n</html>\n"
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "sourceFile": "00-JavaScript-refresher/assets/scripts/Main.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 11,
+            "patches": [
+                {
+                    "date": 1692263536430,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1692263862879,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,8 @@\n //import apiKey from \"./util.js\"; //default\n \n import * as util from \"./util.js\";\n \n-console.log(util);\n+console.log(util); // returns j\n console.log(util.abc)\n console.log(util.apiKey);\n console.log(util.default);\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1692263894079,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,8 @@\n //import apiKey from \"./util.js\"; //default\n \n import * as util from \"./util.js\";\n \n-console.log(util); // returns j\n+console.log(util); // returns js object \n console.log(util.abc)\n console.log(util.apiKey);\n console.log(util.default);\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1692263907582,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n //import { apiKey, abc } from \"./util.js\";\n \n //import apiKey from \"./util.js\"; //default\n \n-import * as util from \"./util.js\";\n+import * as util from \"./util.js\";   // grouping multiple keys in one object\n \n console.log(util); // returns js object \n console.log(util.abc)\n console.log(util.apiKey);\n"
+                },
+                {
+                    "date": 1692263938011,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,5 +6,7 @@\n \n console.log(util); // returns js object \n console.log(util.abc)\n console.log(util.apiKey);\n-console.log(util.default);\n\\ No newline at end of file\n+console.log(util.default);\n+\n+import { apiKey, abc } from \"./util.js\";\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1692263944671,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,5 +8,5 @@\n console.log(util.abc)\n console.log(util.apiKey);\n console.log(util.default);\n \n-import { apiKey, abc } from \"./util.js\";\n\\ No newline at end of file\n+import { apiKey, abc as content } from \"./util.js\";\n"
+                },
+                {
+                    "date": 1692263949987,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,4 +9,6 @@\n console.log(util.apiKey);\n console.log(util.default);\n \n import { apiKey, abc as content } from \"./util.js\";\n+\n+console.l\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1692263968328,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,5 +10,5 @@\n console.log(util.default);\n \n import { apiKey, abc as content } from \"./util.js\";\n \n-console.l\n\\ No newline at end of file\n+console.log(content)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1692263975585,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,14 +1,14 @@\n //import { apiKey, abc } from \"./util.js\";\n \n //import apiKey from \"./util.js\"; //default\n \n-import * as util from \"./util.js\";   // grouping multiple keys in one object\n+// import * as util from \"./util.js\";   // grouping multiple keys in one object\n \n-console.log(util); // returns js object \n-console.log(util.abc)\n-console.log(util.apiKey);\n+// console.log(util); // returns js object \n+// console.log(util.abc)\n+// console.log(util.apiKey);\n console.log(util.default);\n\\ No newline at end of file\n \n import { apiKey, abc as content } from \"./util.js\";\n \n-console.log(content)\n+console.log(content);\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1692264010702,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,7 @@\n \n // console.log(util); // returns js object \n // console.log(util.abc)\n // console.log(util.apiKey);\n-console.log(util.default);\n+//console.log(util.default);\n \n-import { apiKey, abc as content } from \"./util.js\";\n-\n\\ No newline at end of file\n-console.log(content);\n+?\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1692264017817,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,14 @@\n //import { apiKey, abc } from \"./util.js\";\n \n //import apiKey from \"./util.js\"; //default\n \n-// import * as util from \"./util.js\";   // grouping multiple keys in one object\n+import * as util from \"./util.js\";   // grouping multiple keys in one object\n \n-// console.log(util); // returns js object \n-// console.log(util.abc)\n-// console.log(util.apiKey);\n-//console.log(util.default);\n+console.log(util); // returns js object \n\\ No newline at end of file\n+console.log(util.abc)\n+console.log(util.apiKey);\n+console.log(util.default);\n \n-?\n+// import { apiKey, abc as content } from \"./util.js\";\n+\n+// console.log(content);\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1692264029458,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,7 +8,7 @@\n console.log(util.abc)\n console.log(util.apiKey);\n console.log(util.default);\n \n-// import { apiKey, abc as content } from \"./util.js\";\n+// import { apiKey, abc as content } from \"./util.js\";  // if i don't like the name abc i can change it here\n \n // console.log(content);\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1692263536430,
+            "name": "Commit-0",
+            "content": "//import { apiKey, abc } from \"./util.js\";\n\n//import apiKey from \"./util.js\"; //default\n\nimport * as util from \"./util.js\";\n\nconsole.log(util);\nconsole.log(util.abc)\nconsole.log(util.apiKey);\nconsole.log(util.default);"
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "sourceFile": "00-JavaScript-refresher/package.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1692263601503,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1692263610105,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n {\n-    \"name\": \"javascript-refresher-start\",\n+    \"name\": \"Javascript-refresher-start\",\n     \"version\": \"1.0.0\",\n     \"description\": \"\",\n     \"main\": \"index.html\",\n     \"scripts\": {\n"
+                },
+                {
+                    "date": 1692263618201,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n {\n-    \"name\": \"Javascript-refresher-start\",\n+    \"name\": \"Javascript-refresher\",\n     \"version\": \"1.0.0\",\n     \"description\": \"\",\n     \"main\": \"index.html\",\n     \"scripts\": {\n"
+                },
+                {
+                    "date": 1692263671777,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n {\n-    \"name\": \"Javascript-refresher\",\n+    \"name\": \"avascript-refresher\",\n     \"version\": \"1.0.0\",\n     \"description\": \"\",\n     \"main\": \"index.html\",\n     \"scripts\": {\n"
+                }
+            ],
+            "date": 1692263601503,
+            "name": "Commit-0",
+            "content": "{\n    \"name\": \"javascript-refresher-start\",\n    \"version\": \"1.0.0\",\n    \"description\": \"\",\n    \"main\": \"index.html\",\n    \"scripts\": {\n      \"start\": \"parcel index.html --open\",\n      \"build\": \"parcel build index.html\"\n    },\n    \"dependencies\": {\n      \"parcel-bundler\": \"^1.6.1\"\n    },\n    \"devDependencies\": {\n      \"@babel/core\": \"7.2.0\",\n      \"typescript\": \"4.4.4\"\n    },\n    \"resolutions\": {\n      \"@babel/preset-env\": \"7.13.8\"\n    },\n    \"keywords\": []\n  }"
+        }
+    ]
+}
