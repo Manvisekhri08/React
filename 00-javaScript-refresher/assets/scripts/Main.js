@@ -42,16 +42,57 @@
 // console.log(user1)
 // user1.greet();
 
-const hobbies = ["gym", "running", "reading", "cooking"];
-console.log(hobbies[2]);
+// const hobbies = ["gym", "running", "reading", "cooking"];
+// console.log(hobbies[2]);
 
-hobbies.push("working");
-console.log(hobbies)
+// hobbies.push("working");
+// console.log(hobbies)
 
-const index = hobbies.findIndex((item) => item === "reading")
-console.log(index)
+// const index = hobbies.findIndex((item) => item === "reading")
+// console.log(index)
 
-const map = hobbies.map((item) => item + "!!!");
-const map1 = hobbies.map((item) => ({text: item}));
-console.log(map)
-console.log(map1)
+// const map = hobbies.map((item) => item + "!!!");
+// const map1 = hobbies.map((item) => ({text: item}));
+// console.log(map)
+// console.log(map1)
+
+
+// Destructuring
+//Arrays
+// const userName = ["taylor", "swift"];
+// const firstName = userName[0];
+// const lastName = userName[1]; // OR
+
+const[firstName, lastName] = ["taylor", "swift"];
+console.log(firstName, lastName);
+
+// Objects
+const {name: userName, age} = {
+    name: "Hi, Its me",
+    age: 33,
+    greet() {
+        console.log("I'm the problem !");
+        console.log(this.age);
+    }
+};
+
+console.log(userName, age);
+
+// Spread Operator
+ const hobbies = ["running", "reading"];
+
+ const user = {
+    name: "Hi, Its me",
+    age: 33,
+ };
+
+ const newHobbies = ["cooking"];
+ const mergeHobbies = [...hobbies, ...newHobbies];
+ console.log(mergeHobbies);
+
+ const extendedUser = {
+    isAdmin : true,
+    ...user
+ };
+
+ console.log(extendedUser)

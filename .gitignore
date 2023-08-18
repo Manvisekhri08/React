@@ -1,2 +1,4 @@
 node_modules
 .lh
+*.json
+.lh/.gitignore.json
